@@ -75,7 +75,6 @@ fn main() -> Result<(), Box<dyn Error>> {
     let program = program.as_slice();
 
     // Fixed memory of 2^16 cells
-    // Start with some cells to the left
     // Making it dynamic increases the speed a bit
     // ```rs
     // let mut mem = vec![0u8; 1000];
