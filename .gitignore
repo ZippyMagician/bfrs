@@ -1,0 +1,6 @@
+# Cargo files
+Cargo.lock
+target/
+
+# brainfuck testing files
+code.*
